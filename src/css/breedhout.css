@@ -569,10 +569,20 @@ and (max-aspect-ratio:16/9){
   }
 }
 
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(1, 1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(2, 2); opacity: 0.0;}
+}
 
-img {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+.pulsing {
+    -webkit-animation: pulsate 1.8s ease-out;
+    -webkit-animation-iteration-count: 3; 
+    -webkit-animation-delay: 0.2s;
+}
+
+.pulsing:hover {
+    -webkit-animation: pulsate 1.8s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-delay: 0s;  
 }

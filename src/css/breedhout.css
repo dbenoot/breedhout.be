@@ -246,12 +246,20 @@ p {
     background: -moz-linear-gradient(bottom, #FD746C, #2C3E50);*/
     background: -o-linear-gradient(bottom, #FD746C, #2C3E50);*/
     background: linear-gradient(to bottom, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    display: flex;
 }
 
 #event-lights {
   background: url("../img/lights_v2.png");
   background-repeat: repeat-x;
+  display: flex;
+}
+
+#event-tree {
+  background: url("../img/boom.png");
+  display: flex;
+  background-size: contain;
+  background-position-y: bottom;
 }
 
 .glow {

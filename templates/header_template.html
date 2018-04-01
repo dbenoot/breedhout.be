@@ -15,3 +15,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/1.9.1/jarallax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/1.9.1/jarallax-video.min.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+<script>
+jarallax(document.querySelectorAll('.jarallax'), {
+    disableParallax: function () {
+        return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
+    },
+    disableVideo: function () {
+        return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
+    }
+});
+</script>

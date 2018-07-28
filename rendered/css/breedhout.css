@@ -276,3 +276,34 @@ p {
   -webkit-filter: grayscale(0%) opacity(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%) opacity(100%);
 }
+
+
+.blurry {
+  background: rgba(245, 245, 245, 0.6);
+  backdrop-filter:blur(10px);
+}
+
+.upcoming {
+  margin: 0 10px 0 10px;
+  width: 100%;
+  height: 33vh;
+  box-shadow: 0 0 3px gray;
+  border: 1px solid white;
+  position: relative;
+}
+
+.quote2 {
+  font-family: 'Lobster', serif;
+  font-weight: 400;
+  font-size: 4vw;
+  text-align: center;
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px 20px 20px;
+  background: #2B292E;
+  background: rgba(43, 41, 46, 0.8);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

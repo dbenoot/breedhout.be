@@ -249,6 +249,19 @@ p {
     display: flex;
 }
 
+#winter {
+    background: #4b8282;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(bottom, #7db4b4, #4b8282);*/
+    background: -moz-linear-gradient(bottom, #7db4b4, #4b8282);*/
+    background: -o-linear-gradient(bottom, #7db4b4, #4b8282);*/
+    background: linear-gradient(to bottom, #7db4b4, #4b8282);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+}
+
+#winter-sponsor {
+  background-color: #7db4b4;
+}
+
 #event-lights {
   background: url("../img/lights_v2.png");
   background-repeat: repeat-x;
@@ -306,4 +319,9 @@ p {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
 }

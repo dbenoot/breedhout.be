@@ -240,6 +240,15 @@ p {
     z-index: -1;
 }
 
+#dorpsfeest2019 {
+    background: #c25c05;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(bottom, #c25c05, #36688d);*/
+    background: -moz-linear-gradient(bottom, #c25c05, #36688d);*/
+    background: -o-linear-gradient(bottom, #c25c05, #36688d);*/
+    background: linear-gradient(to bottom, #c25c05, #36688d);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+}
+
 #event {
     background: #2C3E50;  /* fallback for old browsers */
     background: -webkit-linear-gradient(bottom, #FD746C, #2C3E50);*/
@@ -265,11 +274,20 @@ p {
 #event-lights {
   background: url("../img/lights_v2.png");
   background-repeat: repeat-x;
-  display: flex;
+  /* display: flex; */
+  width: 100%;
 }
 
 #event-sponsor {
   background-color: #FD746C;
+}
+
+#dorspfeest2019-sponsor {
+  background-color: #c25c05;
+}
+
+#dorspfeest2019-fuif {
+  background-color: #f2f103;
 }
 
 .glow {
